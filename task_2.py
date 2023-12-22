@@ -2,7 +2,6 @@ from collections import deque
 
 def is_palindrome(input_str):
     cleaned_str = input_str.lower().replace(" ", "")
-    print(cleaned_str)
 
     char_queue = deque(cleaned_str)
 
